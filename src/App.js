@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Square from './Square';
 
+// component 
 const initialGame = [
     [null,null,null],
     [null,null,null],
