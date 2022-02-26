@@ -1,6 +1,6 @@
 .App {
   display: grid;
   justify-self: center;
-  grid-template-columns: repeat(3, 110px [col-start]) 5%;
-  grid-template-rows: repeat(3, 110px [row-start]) 5%;
+  grid-template-columns: repeat(2, 110px [col-start]) 5%;
+  grid-template-rows: repeat(2, 110px [row-start]) 5%;
 }
