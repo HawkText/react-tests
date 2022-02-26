@@ -5,8 +5,8 @@
     text-align: center;
 }
 .selecting {
-    background-color: #B6B6B6;
+    background-color: #03f740;
 }
 .inactive {
-    background-color: gray;
+    background-color: rgb(211, 121, 196);
 }
