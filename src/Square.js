@@ -46,15 +46,15 @@ class Square extends Component {
             </div>
         )
         switch(this.state.gameState){
-           case "UNSELECTED":
+            case "UNSELECTED":
                 return unselected;
-           case "SELECTING":
+            case "SELECTING":
                 return selecting;
-           case "SELECTED":
+            case "SELECTED":
                 return selected;
-           case "COMPLETED":
+            case "COMPLETED":
                 return completed;
-           default:
+            default:
                 return unselected;
         }
     }
