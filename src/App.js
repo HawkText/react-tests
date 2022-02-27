@@ -18,13 +18,13 @@ class App extends Component {
         this.setState({input:""});
     }
     render() {
-        let score;
+        let location;
         if(this.state.user.message)
-            score=("User not found")
+        location=("User not found")
         else if(this.state.user.login)
-            score=(this.state.user.location)
+        location=(this.state.user.location)
         else
-            score=("Search for user stats!")
+        location=("Search for user stats!")
         return (
             <div className="App">
                 <h1>Github Location Checker</h1>
@@ -33,10 +33,10 @@ class App extends Component {
                     <input type="text" 
                         onChange={(e)=>this.setState({input:e.target.value})} 
                         value={this.state.input}/>
-                    <button>Calculate Score</button>
+                    <button>Check location</button>
                 </form>
                 <hr />
-                <h3>{score}</h3>
+                <h3>{location}</h3>
             </div>
         );
     }
